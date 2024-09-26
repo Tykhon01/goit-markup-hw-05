@@ -33,6 +33,10 @@ p {
 }
 img {
   display: block;
+  
+}
+textarea {
+  resize: none;
 }
 .container {
   max-width: 1158px;
@@ -501,8 +505,34 @@ img {
   width: 24px;
   height: 24px;
   margin-bottom: 24px;
-  border-radius: 100%;
+  border-radius: 50%;
     background-color: #e7e9fc;
     border-color: rgba(0, 0, 0, 0.1);
 }
+.modal-text {
+  font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    margin-top: 72px;
+    margin-bottom: 16px;
+}
+.modal-form {
+  display: block;
+}
+.modal-form-inout {
+border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+}
+.modal-form-textarea {
+  border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 4px;
+    width: 360px;
+    height: 120px;
+}
+
 /* =========== /Modal Section =========== */
