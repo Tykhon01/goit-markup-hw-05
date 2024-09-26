@@ -500,6 +500,9 @@ textarea {
 }
 .modal-close-btn {
   position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   top: 24px;
   right: 24px;
   width: 24px;
@@ -507,7 +510,15 @@ textarea {
   margin-bottom: 24px;
   border-radius: 50%;
     background-color: #e7e9fc;
-    border-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-close-btn:hover, 
+.modal-close-btn:focus {
+  background-color: #404bbf;
+  border: none;
 }
 .modal-text {
   font-weight: 500;
@@ -521,6 +532,9 @@ textarea {
 }
 .modal-form {
   display: block;
+}
+.modal-form-div {
+  margin-bottom: 8xp;
 }
 .modal-form-inout {
 border: 1px solid rgba(46, 47, 66, 0.4);
