@@ -630,7 +630,9 @@ textarea {
           justify-content: center;
           fill: transparent;
 }
-.checkbox-input:checked .ptivate-policy-accept, .user-privacy-checkbox {
+.checkbox-input:checked 
++ .ptivate-policy-accept 
+> .user-privacy-checkbox {
   fill: #F4F4FD;
 }
 .private-policy-link {
