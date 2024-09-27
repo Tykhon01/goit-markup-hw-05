@@ -461,9 +461,9 @@ textarea {
   background-color: #31d0aa;
 }
 .subscribe-div {
-  display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: 80px;
 }
 .subscribe-text {
   margin-bottom: 16px;
@@ -514,6 +514,7 @@ textarea {
       height: 40px;
       background: #4d5ae5;
       color: #ffffff;
+      margin-left: 24px;
 }
 .subscribe-icon {
   margin-left: 16px;
