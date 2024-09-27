@@ -633,6 +633,8 @@ textarea {
 .checkbox-input:checked 
 + .ptivate-policy-accept 
 > .user-privacy-checkbox {
+  background-color: #404bbf;
+  border: none;
   fill: #F4F4FD;
 }
 .private-policy-link {
