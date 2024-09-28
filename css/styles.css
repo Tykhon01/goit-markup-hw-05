@@ -71,6 +71,9 @@ textarea {
   align-items: center;
   gap: 40px;
 }
+.menu-item {
+  font-weight: 500;
+}
 .header-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -151,6 +154,8 @@ textarea {
   max-width: 1440px;
   background: #2e2f42;
   padding: 188px 0;
+  margin-left: auto;
+  margin-right: auto;
   background-image: url(/images/hero_image.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -158,8 +163,7 @@ textarea {
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
-    ),
-    url(/images/hero_image.jpg);
+    ), url(:/images/hero_image.jpg);
 }
 .main-header {
   font-size: 56px;
@@ -505,14 +509,12 @@ textarea {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    gap: 16px;
     border-radius: 4px;
       padding: 8px 24px;
       min-width: 165px;
       height: 40px;
       background: #4d5ae5;
       color: #ffffff;
-      margin-left: 24px;
 }
 .subscribe-icon {
   margin-left: 16px;
@@ -687,6 +689,7 @@ textarea {
           align-items: center;
           justify-content: center;
           fill: transparent;
+          padding-right: 8px;
 }
 .checkbox-input:checked 
 + .ptivate-policy-accept 
@@ -707,6 +710,7 @@ margin-right: auto;
   display: block;
   min-width: 169px;
   height: 56px;
+  border-radius: 4px;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
