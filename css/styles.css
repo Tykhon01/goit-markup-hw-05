@@ -162,7 +162,7 @@ textarea {
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
-    ), url(../images/hero_image.jpg);
+    ), url('../images/hero_image.jpg');
 }
 .main-header {
   font-size: 56px;
